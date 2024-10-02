@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body{
+    
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18pt;
+    text-align: justify;
+
+}
+
+h1{color: brown;}
+h2{color: blue;}
+
+p{
+    display:inline-block;
+    /* inline-Apresenta o elemento no navegador de forma contínua, como conteúdo */
+    /* block-Posiciona o elemento como um bloco, ocupando todo o espaço possível */
+    padding: 10px;
+    /* Define a distância do conteúdo das bordas  */
+    margin: 5px auto;}
+    /* Define o tamanho da margem */
+    
+.autosize{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em novas linhas */
+    justify-content: space-between;
+
+}
+
+/*.item {
+    flex: 1 1 200px; /* Ajusta automaticamente a largura dos itens 
+    margin: 10px;
+  }*/

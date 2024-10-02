@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    font-size: 80pt;
+
+}
+
+.box-degrade{
+    width: 100%;
+    padding: 350px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left,#E82725,#E86B25,#E84925,#E82595,#EB8F26,#EBA797);
+    background-size: 500% 100%;
+    animation: degradeanimado 5s infinite alternate;
+    }
+    .box-degrade h1{
+        color: white;
+        font-weight: lighter;
+    }
+    @keyframes degradeanimado {
+        0%{
+            background-position-x: 0%;
+           }
+           100%{
+            background-position-x: 100%;
+           }
+    }
+
+
+}
+
